@@ -1,7 +1,7 @@
 %define name Pmw
 %define major 1
 %define minor 2
-%define release %mkrel 7
+%define release %mkrel 8
 
 
 Summary:   Python toolkit for building compound Tkinter widgets
@@ -15,7 +15,7 @@ Source:    %name.%major.%minor.tar.bz2
 BuildRoot: %{_tmppath}/%name-root
 Requires:  blt tkinter python
 Buildarch: noarch
-
+BuildRequires:	python-devel
 
 %description
 Pmw is a toolkit for building high-level compound widgets in Python 
