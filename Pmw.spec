@@ -12,7 +12,6 @@ License:   MIT
 Group:     Development/Python
 Url:	   http://www.dscpl.com.au/pmw
 Source:    %name.%major.%minor.tar.bz2
-BuildRoot: %{_tmppath}/%name-root
 Requires:  blt tkinter python
 Buildarch: noarch
 BuildRequires:	python-devel
