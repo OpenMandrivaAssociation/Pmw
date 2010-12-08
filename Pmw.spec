@@ -1,7 +1,7 @@
 %define name Pmw
 %define major 1
 %define minor 2
-%define release %mkrel 11
+%define release %mkrel 12
 
 
 Summary:   Python toolkit for building compound Tkinter widgets
